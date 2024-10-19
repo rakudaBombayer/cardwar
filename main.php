@@ -5,10 +5,10 @@ $player1 = new Player();
 $player2 = new Player();
 
 
-$startText = "戦争を開始します";
-$giveText = "カードが配られました";
+$startText = "戦争を開始します。"."\n";
+$giveText = "カードが配られました。"."\n";
 
-echo $startText . $giveText;
+echo $startText .$giveText;
 
 // インスタンスを通して関数呼び出し
 $player1->draw("プレイヤー1");
