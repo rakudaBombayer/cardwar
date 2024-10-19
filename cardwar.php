@@ -15,9 +15,7 @@ $number = $numbers[array_rand($numbers)];
 $suits = ['ダイヤ', 'ハート', 'スペード', 'クローバー'];
 $suit = $suits[array_rand($suits)];
 
-$number = array_rand($numbers);
-
-echo $number;
+echo $suit . "の" . $number;
 
 
 
