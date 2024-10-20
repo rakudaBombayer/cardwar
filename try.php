@@ -4,9 +4,14 @@ class Player {
   public string $suit;
   public int $number;
 
-  public function __construct(string $name, string $suit, int $number) { $this->name = $name;
-  $this->suit = $suit;
-  $this->number = $number;
+  public function __construct(string $name) { 
+  $this->name = $name;
+  $this->setRandomCard();
+    }
+  private function setRandomCard() {
+      $suits = ['ハート', 'ダイヤ', 'クラブ', 'スペード'];
+      $this->suit = $suits[array_rand($suits)];
+      $this->number = rand(1, 13);
     }
   }
 
