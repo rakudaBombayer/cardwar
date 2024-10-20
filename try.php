@@ -23,6 +23,7 @@ class Player {
   echo $player2->name . "の勝ちです！\n";
     } else {
       echo "引き分けです!\n";
+      // $this->battle($player1, $player2);
     }
   }
 }
