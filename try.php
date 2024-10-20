@@ -7,8 +7,7 @@ class Player {
   public function __construct(string $name, string $suit, int $number) { $this->name = $name;
   $this->suit = $suit;
   $this->number = $number;
-  }
-  
+    }
   }
 
   class Game {
@@ -19,8 +18,10 @@ class Player {
     
   if ($player1->number > $player2->number) {
     echo $player1->name . "の勝ちです!\n";
+    echo "戦争を終了します。\n";
   } else if ($player1->number < $player2->number){
   echo $player2->name . "の勝ちです！\n";
+  echo "戦争を終了します。\n";
     } else {
       echo "引き分けです!\n";
       // $this->battle($player1, $player2);
@@ -29,7 +30,7 @@ class Player {
 }
   // プレイヤーの作成
   $player1 = new Player("プレイヤー1", "ハート", 13);
-  $player2 = new Player("プレイヤー2", "スペード", 13);
+  $player2 = new Player("プレイヤー2", "スペード", 12);
 
   // ゲームの開始
   echo "戦争を開始します。"."\n";
