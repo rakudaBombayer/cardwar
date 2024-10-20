@@ -1,3 +1,5 @@
+//提出Questです。
+
 <?php
 class Player { 
   public string $name;
