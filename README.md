@@ -1,3 +1,3 @@
 # cardwar
 
-try.phpが戦争の提出コードなのでtry.phpを見て下さい。
+sensou.phpが戦争の提出コードなのでsensou.phpを見て下さい。
